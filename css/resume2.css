@@ -210,9 +210,19 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-  color: #BD5D38;
+  color: #77274F;
 }
 
-a:hover, a:focus, a:active {
-  color: #824027;
+a:hover, a:focus, a:active,a:visited {
+  color: #77274F;
 }
+
+.ekko-lightbox span {
+  color: white;
+}
+
+#imgpp {
+  width: 40px;
+  height: 40px;
+}
+

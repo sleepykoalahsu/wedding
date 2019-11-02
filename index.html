@@ -32,7 +32,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Willy and Nina's Wedding</span>
+      <span class="d-block d-lg-none"><img class="rounded-circle" id="imgpp" src="img/i_profile.jpg"> Willy and Nina's Wedding</span>
       <span class="d-none d-lg-block">
         <div id="example1" class="p-1"> Nina & Willy </div>
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/i_profile.jpg" alt="">
@@ -43,9 +43,11 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
+        <!---
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#News">News</a>
         </li>
+        --->
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#Welcome">Welcome</a>
         </li>
@@ -64,13 +66,18 @@
 
   <div class="container-fluid p-0">
 
+    <!---
     <section class="resume-section p-3 p-lg-5 d-flex" id="News">
       <div class="w-100">
         <h2 class="mb-5"> <img class="img-fluid" width="80px" src="img/i_news.png"> News </h2>
-          <p> 2019.10.06 網頁開張 </p>
+          <p><a href="info.html"> 2019.10.06 網頁開張 </a></p>
           <p> 2019.10.06 報名開始 </p>
+          <textarea name="message" rows="10" cols="50">
+          The cat was playing in the garden.
+          </textarea>
       </div>
     </section>
+    --->
 
     <section class="resume-section p-3 p-lg-5 d-flex" id="Welcome">
       <div class="w-100">
@@ -92,15 +99,34 @@
     <section class="resume-section p-3 p-lg-5 d-flex" id="Wedding">
       <div class="w-100">
         <h2 class="mb-5"> <img class="img-fluid" width="80px" src="img/i_wedding.png"> Wedding </h2>
-        <h3> 2020.02.15 一葉日本料理 </h3>
-        <div class="subheading mb-1"> 午宴 12:00 </div>
-        <div class="subheading mb-1"> 嘉義市西區博愛路二段700號 </div>
-        <p> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRRmJJYV-PIBJZJBMdm3Pd92k-cgKzzcqAx5iifClBP-o21A/viewform">點我報名 - 訂婚</a> </p>
-        <h3> 2020.03.01 心之芳庭 </h3>
-        <div class="subheading mb-1"> 證婚 16:00 </div>
-        <div class="subheading mb-1"> 晚宴 18:30 </div>
-        <div class="subheading mb-1"> 台中市北屯區芳庭路1號 </div>
-        <p> <a href="#">點我報名 - 結婚</a> </p>
+        <h3> 2020.02.15 嘉義一葉日本料理 </h3>
+        <div class="subheading mb-1 ml-1"> 晚宴 18:00 </div>
+        <div class="subgeading mb-1 ml-1"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRRmJJYV-PIBJZJBMdm3Pd92k-cgKzzcqAx5iifClBP-o21A/viewform">點我報名 - 訂婚</a> </div>
+        <h3> 2020.03.01 台中心之芳庭 </h3>
+        <div class="subheading mb-1 ml-1"> <span> 證婚 16:00 </span> <span class="ml-4"> 晚宴 18:00 </span> </div>
+        <div class="subgeading mb-1 ml-1"> <a href="#">點我報名 - 結婚</a> </div>
+        <div class="row text-center text-lg-left">
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="img/loc01.jpg" class="d-block mb-4 h-100 gallery-a" data-toggle="lightbox" data-gallery="example-gallery2">
+              <img class="img-fluid img-thumbnail" src="img/loc01.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="img/loc02.jpg" class="d-block mb-4 h-100 gallery-a" data-toggle="lightbox" data-gallery="example-gallery2">
+              <img class="img-fluid img-thumbnail" src="img/loc02.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="img/loc03.jpg" class="d-block mb-4 h-100 gallery-a" data-toggle="lightbox" data-gallery="example-gallery2">
+              <img class="img-fluid img-thumbnail" src="img/loc03.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="img/loc04.jpg" class="d-block mb-4 h-100 gallery-a" data-toggle="lightbox" data-gallery="example-gallery2">
+              <img class="img-fluid img-thumbnail" src="img/loc04.jpg" alt="">
+            </a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -109,16 +135,65 @@
     <section class="resume-section p-3 p-lg-5 d-flex" id="Transport">
       <div class="w-100">
         <h2 class="mb-2"> <img class="img-fluid" width="80px" src="img/i_transport.png"> Transport </h2>
-        <h3> 2020.03.01 心之芳庭 </h3>
-        <div class="subheading mb-1"> 台中市北屯區芳庭路1號 </div>
-        <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.262129090151!2d120.7655560140849!3d24.162538084387855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34691f3a2a69c2d3%3A0x62973b11e21a01c5!2z5b-D5LmL6Iqz5bqt!5e0!3m2!1szh-TW!2stw!4v1555181496871!5m2!1szh-TW!2stw" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <h3> 2020.03.01 台中心之芳庭 </h3>
+
+        <div class="border border-white">
+          <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.262129090151!2d120.7655560140849!3d24.162538084387855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34691f3a2a69c2d3%3A0x62973b11e21a01c5!2z5b-D5LmL6Iqz5bqt!5e0!3m2!1szh-TW!2stw!4v1555181496871!5m2!1szh-TW!2stw" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          <div class="d-flex" style="background:white">
+            <div class="p-2 align-self-center"> <img src="img/map-icon-1.svg"> </div>
+            <div class="p-2 align-self-center"> 台中市北屯區芳庭路1號 <br /> GPS 24.162311,120.767495 </div>
+            <div class="p-2 ml-3 align-self-center"> <img src="img/map-icon-2.svg"> </div>
+            <div class="p-2 align-self-center"> 04-22398900 </div>
+          </div>
         </div>
-        <h3> 2020.02.15 一葉日本料理 </h3>
-        <div class="subheading mb-1"> 嘉義市西區博愛路二段700號 </div>
-        <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.773751669926!2d120.42604111406692!3d23.46862418472902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e96a27641f0c9%3A0x7805e079b02896ec!2z5LiA6JGJ5pel5pys5paZ55CG6aSQ5buz!5e0!3m2!1szh-TW!2stw!4v1555181615612!5m2!1szh-TW!2stw" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        <!---
+        <div style="background:white" class="p-2 mt-2 border border-white">
+          交通資訊
+          <hr />
+          <div class="d-flex">
+            <div><img class="img-fluid" style="width:500px" src="img/map-1.jpg"> </div>
+            <div class="m-2">
+              自行開車: 請直接搜尋心之芳庭，照Google指示
+              ♥ 搭乘台鐵
+              可轉搭計程車：自台鐵台中站，搭計程車至餐廳，車程約20-30分鐘。
+
+              ♥ 搭乘高鐵
+              可轉搭計程車：自高鐵台中高鐵站，搭計程車至餐廳，車程約30-40分鐘。
+              接駁車/人員會在6號出口等待大家，於15:30左右發車
+              (麻煩需要搭乘的朋友一定要先登記唷!!到時候會私下聯絡~)
+
+              ♥新竹園區接駁車，去程14:00左右發車，回程21:00左右發車
+              (麻煩需要搭乘的朋友一定要先登記唷!!到時候會私下聯絡~)
+          </div>
         </div>
+        --->
+
+        <br />
+        <h3> 2020.02.15 嘉義一葉日本料理 </h3>
+        <div class="border border-white">
+          <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.773751669926!2d120.42604111406692!3d23.46862418472902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e96a27641f0c9%3A0x7805e079b02896ec!2z5LiA6JGJ5pel5pys5paZ55CG6aSQ5buz!5e0!3m2!1szh-TW!2stw!4v1555181615612!5m2!1szh-TW!2stw" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          <div class="d-flex" style="background:white">
+            <div class="p-2 align-self-center"> <img src="img/map-icon-1.svg"> </div>
+            <div class="p-2 align-self-center"> 嘉義市西區博愛路二段700號 <br />  GPS 23.468523, 120.427990 </div>
+            <div class="p-2 ml-3 align-self-center"> <img src="img/map-icon-2.svg"> </div>
+            <div class="p-2 align-self-center"> 05-2363639 </div>
+          </div>
+        </div>
+        <!---
+        <div style="background:white" class="p-2 mt-2 border border-white">
+          交通資訊
+          <hr />
+          <div class="d-flex">
+            <div><img class="img-fluid" style="width:500px" src="img/map-2.jpg"> </div>
+            <div class="m-2"> 國道一號下嘉義264 - 往高鐵大道方向前進 - 下太原路閘道 - 左轉太原路直行到底 - 左轉北坑巷 - 右轉逢甲社區崗亭 - 心之芳庭 </div>
+          </div>
+        </div>
+        --->
       </div>
     </section>
 
@@ -128,9 +203,8 @@
       <div class="w-100">
         <h2 class="mb-2"> <img class="img-fluid" width="80px" src="img/i_photo.png"> Photo </h2>
         <div class="row text-center text-lg-left">
-
           <div class="col-lg-3 col-md-4 col-6">
-            <a href="img/img01.jpg" class="d-block mb-4 h-100" data-toggle="lightbox" data-gallery="example-gallery">
+            <a href="img/img01.jpg" class="d-block mb-4 h-100 gallery-a" data-toggle="lightbox" data-gallery="example-gallery">
               <img class="img-fluid img-thumbnail" src="img/img01.jpg" alt="">
             </a>
           </div>

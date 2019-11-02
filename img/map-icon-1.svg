@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.2" height="30" viewBox="0 0 24.2 30">
+  <title>map-icon-1</title>
+  <g id="圖層_2" data-name="圖層 2">
+    <g id="圖層_1-2" data-name="圖層 1">
+      <g id="圖層_2-2" data-name="圖層 2">
+        <g id="圖層_1-2-2" data-name="圖層 1-2">
+          <g>
+            <path d="M23.7,11.9c0,4-4.71,12.51-8.13,16.12a4.81,4.81,0,0,1-6.8.14L8.63,28C5.21,24.41.5,15.91.5,11.9A11.5,11.5,0,0,1,12.1.5h0A11.5,11.5,0,0,1,23.7,11.9Z" fill="#fff" stroke="#5d0c75" stroke-miterlimit="10"/>
+            <circle cx="12.1" cy="12.09" r="4.35" fill="#fff" stroke="#5d0c75" stroke-miterlimit="10"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
