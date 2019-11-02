@@ -20,8 +20,8 @@ var Lightbox = (function ($) {
 	var Default = {
 		title: '',
 		footer: '',
-		maxWidth: 9999,
-		maxHeight: 9999,
+		maxWidth: 999,
+		maxHeight: 999,
 		showArrows: true, //display the left / right arrows or not
 		wrapping: true, //if true, gallery loops infinitely
 		type: null, //force the lightbox into image / youtube mode. if null, or not image|youtube|vimeo; detect it

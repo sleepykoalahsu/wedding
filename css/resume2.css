@@ -58,10 +58,11 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  /* font-size: 1.4rem; */
+  font-size: 6.5vmin;
 }
 
-span,
+#sideNav span,
 p,
 .subheading {
   color: #77274F;
@@ -209,20 +210,39 @@ section.resume-section .resume-item .resume-date {
   color: #BD5D38 !important;
 }
 
-a {
-  color: #77274F;
-}
-
-a:hover, a:focus, a:active,a:visited {
-  color: #77274F;
-}
-
 .ekko-lightbox span {
   color: white;
 }
 
 #imgpp {
+  width: 6vmin;
+  height: 6vmin;
+}
+
+.icon-ring {
   width: 40px;
-  height: 40px;
+}
+
+.btn-join {
+  border-width: 2px;
+  width: 300px;
+
+  /*
+  border-color: #77274F;
+  background-color: white;
+  color: #77274F;
+
+  border-color: white;
+  background-color: #ffa3c7;
+  */
+  border-color: #77274F;
+  background-color: white;
+
+  font-size: 1rem;
+}
+
+.btn-join:hover, .btn-join:focus, .btn-join:active, .btn-join:visited {
+  /*color: #77274F;*/
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
