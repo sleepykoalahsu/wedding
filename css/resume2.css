@@ -4,10 +4,13 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
   color: #868e96;
+  /* pink */
   background-color: #FFE5F2;
 }
 
@@ -176,8 +179,8 @@ p.lead {
 }
 
 section.resume-section {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
   max-width: 75rem;
 }
 
@@ -196,8 +199,8 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 992px) {
   section.resume-section {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
   }
 }
 
@@ -228,25 +231,68 @@ section.resume-section .resume-item .resume-date {
 }
 
 .btn-join {
-  border-width: 2px;
-  width: 300px;
+  width: 200px;
 
   /*
+  border-width: 2px;
+
   border-color: #77274F;
   background-color: white;
   color: #77274F;
 
   border-color: white;
   background-color: #ffa3c7;
-  */
+ 
   border-color: #77274F;
   background-color: white;
+  */
 
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .btn-join:hover, .btn-join:focus, .btn-join:active, .btn-join:visited {
-  /*color: #77274F;*/
+  /*
+  color: #77274F;
   background-color: rgba(255, 255, 255, 0.5);
+  */
 }
+
+.btn-join2 {
+  color: #fff;
+  background-color: #FF61B0;
+  border-color: #FF61B0;
+}
+
+.btn-join2:hover {
+  color: #fff;
+  background-color: #d95296;
+  border-color: #df6da6;
+}
+
+/*
+.btn-join2:focus, .btn-join2.focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-join2.disabled, .btn-join2:disabled {
+}
+
+.btn-join2:not(:disabled):not(.disabled):active, .btn-join2:not(:disabled):not(.disabled).active,
+.show > .btn-join2.dropdown-toggle {
+}
+
+.btn-join2:not(:disabled):not(.disabled):active:focus, .btn-join2:not(:disabled):not(.disabled).active:focus,
+.show > .btn-join2.dropdown-toggle:focus {
+}
+*/
+
+.fontc {
+  font-family: 'cwTeXYen';
+}
+
+/*
+#Welcome {
+  padding-top: 1rem !important;
+}
+*/
 
